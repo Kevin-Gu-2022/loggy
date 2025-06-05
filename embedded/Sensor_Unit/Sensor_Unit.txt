@@ -1,0 +1,128 @@
+Configuration	Sensor_Unit
+STM32CubeMX 	6.14.0
+Date	04/28/2025
+MCU	STM32L431RCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1 Single-ended	ADC1_IN1	PC0
+I2C2	I2C	I2C2_SCL	PB10
+I2C2	I2C	I2C2_SDA	PB11
+SPI1	Full-Duplex Master	SPI1_MISO	PB4 (NJTRST)
+SPI1	Full-Duplex Master	SPI1_MOSI	PB5
+SPI1	Full-Duplex Master	SPI1_SCK	PA1
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13 (JTMS-SWDIO)
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14 (JTCK-SWCLK)
+SYS	Trace Asynchronous Sw	SYS_JTDO-SWO	PB3 (JTDO-TRACESWO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Input	DRDY
+8	PC0	ADC1_IN1	
+15	PA1	SPI1_SCK	
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+21	PA5	GPIO_Output	SAMPLING_LED
+23	PA7	GPIO_Output	CH7_HIGH
+24	PC4	GPIO_Output	CH7_LOW
+25	PC5	GPIO_Output	CH8_HIGH
+26	PB0	GPIO_Output	CH8_LOW
+29	PB10	I2C2_SCL	
+30	PB11	I2C2_SDA	
+33	PB12	GPIO_Output	CH6_LOW
+34	PB13	GPIO_Output	CH6_HIGH
+35	PB14	GPIO_Output	CH5_LOW
+36	PB15	GPIO_Output	CH5_HIGH
+37	PC6	GPIO_Output	CH4_LOW
+38	PC7	GPIO_Output	CH4_HIGH
+39	PC8	GPIO_Output	CH3_LOW
+40	PC9	GPIO_Output	CH3_HIGH
+41	PA8	GPIO_Output	CH2_LOW
+42	PA9	GPIO_Output	CH2_HIGH
+43	PA10	GPIO_Output	CH1_LOW
+44	PA11	GPIO_Output	CH1_HIGH
+46	PA13 (JTMS-SWDIO)	SYS_JTMS-SWDIO	
+49	PA14 (JTCK-SWCLK)	SYS_JTCK-SWCLK	
+55	PB3 (JTDO-TRACESWO)	SYS_JTDO-SWO	
+56	PB4 (NJTRST)	SPI1_MISO	
+57	PB5	SPI1_MOSI	
+58	PB6	GPIO_Output	CS
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1 Single-ended	ADC1_IN1	PC0
+I2C2	I2C	I2C2_SCL	PB10
+I2C2	I2C	I2C2_SDA	PB11
+SPI1	Full-Duplex Master	SPI1_MISO	PB4 (NJTRST)
+SPI1	Full-Duplex Master	SPI1_MOSI	PB5
+SPI1	Full-Duplex Master	SPI1_SCK	PA1
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13 (JTMS-SWDIO)
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14 (JTCK-SWCLK)
+SYS	Trace Asynchronous Sw	SYS_JTDO-SWO	PB3 (JTDO-TRACESWO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Input	DRDY
+8	PC0	ADC1_IN1	
+15	PA1	SPI1_SCK	
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+21	PA5	GPIO_Output	SAMPLING_LED
+23	PA7	GPIO_Output	CH7_HIGH
+24	PC4	GPIO_Output	CH7_LOW
+25	PC5	GPIO_Output	CH8_HIGH
+26	PB0	GPIO_Output	CH8_LOW
+29	PB10	I2C2_SCL	
+30	PB11	I2C2_SDA	
+33	PB12	GPIO_Output	CH6_LOW
+34	PB13	GPIO_Output	CH6_HIGH
+35	PB14	GPIO_Output	CH5_LOW
+36	PB15	GPIO_Output	CH5_HIGH
+37	PC6	GPIO_Output	CH4_LOW
+38	PC7	GPIO_Output	CH4_HIGH
+39	PC8	GPIO_Output	CH3_LOW
+40	PC9	GPIO_Output	CH3_HIGH
+41	PA8	GPIO_Output	CH2_LOW
+42	PA9	GPIO_Output	CH2_HIGH
+43	PA10	GPIO_Output	CH1_LOW
+44	PA11	GPIO_Output	CH1_HIGH
+46	PA13 (JTMS-SWDIO)	SYS_JTMS-SWDIO	
+49	PA14 (JTCK-SWCLK)	SYS_JTCK-SWCLK	
+55	PB3 (JTDO-TRACESWO)	SYS_JTDO-SWO	
+56	PB4 (NJTRST)	SPI1_MISO	
+57	PB5	SPI1_MOSI	
+58	PB6	GPIO_Output	CS
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Sensor_Unit
+Project Folder : D:\University\2025\Semester 1\ENGG3800\engg3800-g7\embedded\Sensor_Unit
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_L4 V1.18.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

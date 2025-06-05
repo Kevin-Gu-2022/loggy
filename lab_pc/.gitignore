@@ -1,0 +1,3 @@
+# Ignore generated csv files
+*.csv
+all_data.json

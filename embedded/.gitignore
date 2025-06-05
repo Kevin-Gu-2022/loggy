@@ -1,0 +1,23 @@
+# Ignore build artifacts
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Ignore IDE settings and cache
+.metadata/
+.mxproject/
+.mxsession/
+.settings/
+
+# Ignore auto-generated files (unless modified manually)
+Core/Startup/
+Core/Debug/
+Core/Release/
+
+# Ignore CubeMX backup and logs
+*.bak
+*.log
